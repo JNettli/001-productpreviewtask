@@ -1,0 +1,73 @@
+body {
+    background-color: #F2EAE2;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+}
+
+.prodpreview {
+    margin: 10% auto;
+    background-color: #fff;
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prodimage {
+    display: inherit;
+}
+
+.prodtext {
+    display: flexbox;
+    padding: 32px;
+}
+
+h2 {
+    color: #6C7289;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    color: #1C232B;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+p {
+    color: #6C7289;
+    font-size: 14px;
+}
+
+.prices {
+    display: flex;
+}
+
+.currentprice {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D8168;
+}
+
+.prevprice {
+    color: #6C7289;
+    text-decoration: line-through;
+    margin: auto;
+}
+
+button {
+    background-color: #3D8168;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    height: 48px;
+    width: 236px;
+    cursor: pointer;
+}
