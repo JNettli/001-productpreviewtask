@@ -4,7 +4,7 @@ body {
     height: auto;
 }
 
-.prodpreview {
+.prod-preview {
     margin: 10% auto;
     background-color: #fff;
     height: 450px;
@@ -15,12 +15,15 @@ body {
     justify-content: center;
 }
 
-.prodimage {
+.prod-image {
     display: inherit;
 }
 
-.prodtext {
-    display: flexbox;
+.prod-image img {
+    border-radius: 10px 0 0 10px;
+}
+
+.prod-text {
     padding: 32px;
 }
 
@@ -47,14 +50,14 @@ p {
     display: flex;
 }
 
-.currentprice {
+.prices-current {
     font-family: 'Fraunces', sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: #3D8168;
 }
 
-.prevprice {
+.prices-previous {
     color: #6C7289;
     text-decoration: line-through;
     margin: auto;
